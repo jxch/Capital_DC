@@ -1,0 +1,3 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="E:\work\Capital\Capital_Python\Capital_DC\resource\Oracle_ENV\instantclient-basic-windows.x64-19.9.0.0.0dbru\instantclient_19_9\network\admin")))
+SSL_SERVER_DN_MATCH=yes
+SQLNET.USE_HTTPS_PROXY=on

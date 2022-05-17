@@ -1,6 +1,6 @@
 FROM python:slim
 
-WORKDIR /opt/demo/
+WORKDIR /opt/capital_dc/
 COPY /app .
 
 RUN pip install -r requirements.txt

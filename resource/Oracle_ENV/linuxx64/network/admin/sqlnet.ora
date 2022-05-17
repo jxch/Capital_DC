@@ -1,0 +1,2 @@
+WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY="/opt/capital_dc/app/resource/Oracle_ENV/instantclient-basic-linux.x64-19.15.0.0.0dbru/instantclient_19_15/network/admin")))
+SSL_SERVER_DN_MATCH=yes
