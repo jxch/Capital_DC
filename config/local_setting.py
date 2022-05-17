@@ -1,6 +1,6 @@
 from base_setting import BaseSetting
 
 
-class DevelopSetting(BaseSetting):
-    DEBUG = True
+class LocalSetting(BaseSetting):
+    DEBUG = False
     SERVER_PORT = 8080

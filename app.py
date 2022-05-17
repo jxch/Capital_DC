@@ -1,9 +1,12 @@
 from flask import Flask
 import py_eureka_client.eureka_client as eureka_client
 from config import config_dict
+import os
 
 app = Flask(__name__)
-app.config.from_object(config_dict['default'])
+
+env = os.getenv('CAPITAL_DC_ENV')
+app.config.from_object(config_dict[env])
 
 eureka_client.init(eureka_server=app.config.get('EUREKA_SERVER'),
                    app_name=app.config.get('APP_NAME'),
